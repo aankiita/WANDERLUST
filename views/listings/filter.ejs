@@ -87,14 +87,14 @@
         <label class="form-check-label" for="switchCheckDefault">Display Total After Taxes</label>
     </div>
 </div>
-<div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1  ">
+<div class="row row-cols-lg-3 row-cols-md-6 row-cols-sm-12">
     <%for(let listing of allListings) {%>
 
         <a href="/listings/<%= listing._id %>" class="listing-link">
             <div class="card listing-card col">
                 <img 
                     src="<%= listing.image.url %>"
-                    class="card-img-top"
+                    class="card-img-top "
                     alt="listing image"
                     style="height:20rem"
                 >
